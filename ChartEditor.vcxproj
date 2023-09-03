@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Core.ixx" />
+    <ClCompile Include="src\Core\Note.ixx" />
     <ClCompile Include="src\Core\NoteType.ixx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
