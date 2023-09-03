@@ -22,6 +22,7 @@
     <ClCompile Include="src\Core.ixx" />
     <ClCompile Include="src\Core\Note.ixx" />
     <ClCompile Include="src\Core\NoteType.ixx" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
