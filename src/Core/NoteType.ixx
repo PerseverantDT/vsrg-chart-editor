@@ -15,13 +15,13 @@ namespace ChartEditor {
             static const NoteType DEFAULT_NOTETYPE("", false, false);
             return DEFAULT_NOTETYPE;
         }
-        [[nodiscard]] const std::string &getName() const noexcept { return m_name; }
+        [[nodiscard]] const std::string &name() const noexcept { return m_name; }
         [[nodiscard]] bool isMine() const noexcept { return m_mine; }
         [[nodiscard]] bool isRoll() const noexcept { return m_roll; }
 
-        void setName(const std::string &name) { m_name = name; }
-        void setMine(bool mine) { m_mine = mine; }
-        void setRoll(bool roll) { m_roll = roll; }
+        void name(const std::string &name) { m_name = name; }
+        void isMine(bool mine) { m_mine = mine; }
+        void isRoll(bool roll) { m_roll = roll; }
 
         NoteType(const std::string &name, bool mine, bool roll) : m_name(name), m_mine(mine), m_roll(roll) {}
         virtual ~NoteType() = default;
