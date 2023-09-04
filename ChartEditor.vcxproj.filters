@@ -30,5 +30,11 @@
     <ClCompile Include="src\Core\TimingPoint.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Core\TimingData.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\TimingData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
