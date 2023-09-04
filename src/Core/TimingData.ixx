@@ -16,7 +16,7 @@ namespace ChartEditor {
          * \brief Gets the list of timing points in the timing data.
          * \return A readonly list of timing points.
          */
-        [[nodiscard]] const std::vector<TimingPoint> &timingPoints() { return m_timingPoints; }
+        [[nodiscard]] const std::vector<TimingPoint> &timingPoints() const noexcept { return m_timingPoints; }
         /**
          * \brief Gets the offset of the timing data.
          *
@@ -25,7 +25,7 @@ namespace ChartEditor {
          *
          * \return The offset of the timing data, in seconds.
          */
-        [[nodiscard]] float offset() { return m_offset; }
+        [[nodiscard]] float offset() const noexcept { return m_offset; }
 
         /**
          * \brief Sets the offset of the timing data.
