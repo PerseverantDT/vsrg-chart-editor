@@ -43,4 +43,8 @@ namespace ChartEditor {
         Note(Note &&) = default;
         Note &operator=(Note &&) = default;
     };
+    export const struct EditNoteParams final {
+        std::optional<std::weak_ptr<NoteType>> type = std::nullopt;
+        std::optional<float> holdLength = std::nullopt;
+    };
 }
