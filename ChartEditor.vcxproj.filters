@@ -40,5 +40,14 @@
     <ClCompile Include="src\Core\TimingPoint.ixx">
       <Filter>Module Interface Units</Filter>
     </ClCompile>
+    <ClCompile Include="src\Exceptions.ixx">
+      <Filter>Module Interface Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Difficulty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Difficulty.ixx">
+      <Filter>Module Interface Units</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
