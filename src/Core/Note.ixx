@@ -19,7 +19,7 @@ namespace ChartEditor {
     public:
         [[nodiscard]] NoteType type() const noexcept {
             if (const auto type = m_type.lock(); type != nullptr) return *type;
-            return const_cast<NoteType &>(NoteType::DEFAULT());
+            return const_cast<NoteType &>(NoteType::STANDARD());
         }
         [[nodiscard]] float beat() const noexcept { return m_beat; }
         [[nodiscard]] float holdLength() const noexcept { return m_holdLength; }
