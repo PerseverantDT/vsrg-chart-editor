@@ -49,5 +49,11 @@
     <ClCompile Include="src\Core\Difficulty.ixx">
       <Filter>Module Interface Units</Filter>
     </ClCompile>
+    <ClCompile Include="src\Core\Chart.ixx">
+      <Filter>Module Interface Units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Chart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

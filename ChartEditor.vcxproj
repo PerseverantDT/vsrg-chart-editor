@@ -20,6 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Core.ixx" />
+    <ClCompile Include="src\Core\Chart.cpp" />
+    <ClCompile Include="src\Core\Chart.ixx" />
     <ClCompile Include="src\Core\Difficulty.cpp" />
     <ClCompile Include="src\Core\Difficulty.ixx" />
     <ClCompile Include="src\Core\Note.ixx" />
